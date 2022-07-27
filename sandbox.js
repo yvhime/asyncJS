@@ -1,8 +1,5 @@
 // console.log(1);
 // console.log(2);
-// setTimeout(function() {
-//     console.log("callback function fired");
-// }, 5000); // this is an asynchronous code
 // setTimeout(() => {
 //     console.log("callback func fired");
 // }, 3000); // this is an asynchronous code
@@ -70,10 +67,6 @@ const getTodos = (resource) => {
 //         reject("some error");
 //     });
 // };
-// // resolve and reject are functions and automatically built in promise api
+// // resolve and reject are functions and automatically built in promise
 
-// getSomething().then((data) => {
-//     console.log(data);
-// }, (err) => {
-//     console.log(err);
-// });
+// console.log(fetch('https://jsonplaceholder.typicode.com/todos/1'));
