@@ -16,3 +16,13 @@ p.then((porkchop) => {
 .catch((porkchop) => {
     console.log(porkchop);
 })
+
+fetch('todos/luigi.json').then((response) => {
+    console.log('resolved json gagi', response);
+    return response.json();
+}).then((jsonData) => {
+    console.log(jsonData);
+})
+.catch((reject) => {
+    console.log('rejected jason', reject);
+});
